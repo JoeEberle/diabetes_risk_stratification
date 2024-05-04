@@ -10,7 +10,7 @@ Machine Learning Risk stratification - 3 different approaches
 
 ![Image image_filename](sample.png)
 
-![Image image_filename]("solution_sign.png")
+![Image image_filename](solution_sign.png)
 
 ## Solution Features
 - Easy to understand and use  
