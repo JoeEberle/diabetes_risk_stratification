@@ -46,4 +46,7 @@ To get started with the **Diabetes Risk Stratification.** solution repository, f
 ![Developer](developer.png)
 
 ![Brand](brand.png)
-    ## Deliverables or Figures![additional_image](diabetes_risk_stratification.png)  <br>![additional_image](solution_stacked_sign.png)  <br>
+    
+## Deliverables or Figures
+ ![additional_image](diabetes_risk_stratification.png)  <br>![additional_image](solution_stacked_sign.png)  <br>
+    
