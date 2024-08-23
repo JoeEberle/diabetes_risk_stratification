@@ -1,14 +1,14 @@
 
 ![Image image_filename](solution_sign.png)
 
-# Diabetes Risk Stratification. - Machine Learning Risk stratification - 3 different approaches
-Machine Learning Risk stratification - 3 different approaches
+# Diabetes Risk Stratification. - nan
+nan
 
 ![Image image_filename](code.png)
 
 Welcome to the solution **Diabetes Risk Stratification.** - an example for your projects
 
-Machine Learning Risk stratification - 3 different approaches
+nan
 
 ![Image image_filename](sample.png)
 
