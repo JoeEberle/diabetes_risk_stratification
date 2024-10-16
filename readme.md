@@ -39,11 +39,8 @@ To get started with the **Diabetes Risk Stratification.** solution repository, f
  ![additional_image](diabetes_risk_stratification.png)  <br>
     
 
-## Github    
-## https://github.com/JoeEberle/ 
-
-## Email 
-## josepheberle@outlook.com 
+## Github    https://github.com/JoeEberle/ 
+## Email  josepheberle@outlook.com 
 
     
 ![Developer](developer.png)
