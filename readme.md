@@ -2,7 +2,7 @@
 Welcome to the solution **Diabetes Risk Stratification.** - an example for your projects
 
 Machine Learning Risk stratification - 3 different approaches
-![Image image_filename](sample.png)
+![Image image_filename](code.png)![Image image_filename](sample.png)
 ## Getting Started
 
 The goal of this solution is to **Jump Start** your development and have you up and running in 30 minutes. 
