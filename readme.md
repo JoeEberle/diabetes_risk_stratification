@@ -1,6 +1,9 @@
 ![Image image_filename](solution_sign.png)
-    # Diabetes Risk Stratification. 
-    ## Machine Learning Risk stratification - 3 different approaches
+    
+# Diabetes Risk Stratification. 
+
+## Machine Learning Risk stratification - 3 different approaches
+
     ![Image image_filename](code.png)
 Welcome to the solution **Diabetes Risk Stratification.** - an example for your projects
 
@@ -25,9 +28,9 @@ To get started with the **Diabetes Risk Stratification.** solution repository, f
 - Saves You Time 
 
 
-## Notebook Features
+## Code Features
 
-These Features are design to provide everything you need for **Knowledge Transfer** 
+These features are designed to provide everything you need for **Diabetes Risk Stratification.** 
 
 - **Self Documenting** - Automatically identifes major steps in notebook 
 - **Self Testing** - Unit Testing for each function
@@ -37,6 +40,7 @@ These Features are design to provide everything you need for **Knowledge Transfe
 - **Self Debugging** - Enhanced python standard debugging
 - **Low Code** - or - No Code  - Most solutions are under 50 lines of code
 - **Educational** - Includes educational dialogue and background material
+
     
 ## List of Figures
  ![additional_image](diabetes_risk_stratification.png)  <br>
