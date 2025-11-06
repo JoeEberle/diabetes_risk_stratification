@@ -10,49 +10,116 @@
     
 
 
-# 🧠 Importing the PIMA Indians Dataset - Website KAGGLE.COM
+## 🧠 Overview of Diabetes  
+*(Source: WebMD)*  
 
-The data comes from the National Institute of Diabetes and Digestive and Kidney Diseases but is highly curated upon registry to KAGGLE. 
+### ⚙️ What Is Diabetes?  
+Diabetes refers to a group of metabolic disorders characterized by problems with the hormone **insulin**, resulting in elevated blood glucose levels. While diabetes cannot be cured, it can be effectively managed through lifestyle modification, medication, and regular monitoring.
 
-The dataset is for the purposes of predicting whether patients have diabetes based on other variables in the dataset. 
+### 🧬 Major Types of Diabetes  
+There are three primary types of diabetes:  
+1. **Type 1 Diabetes** – An autoimmune condition where the pancreas produces little or no insulin.  
+2. **Type 2 Diabetes** – The most common form, often associated with insulin resistance and lifestyle factors.  
+3. **Gestational Diabetes** – Occurs during pregnancy and typically resolves after delivery, though it increases the risk of type 2 diabetes later in life.
 
-This data is very specific to a sub-population - **IT IS NOT** a representative of a **real world diabetes data set** - it is for learning ONLY. 
+### 🩸 What Is Diabetes Insipidus?  
+**Diabetes insipidus** is a distinct condition unrelated to blood glucose regulation. It is caused by a problem with antidiuretic hormone (ADH), leading to excessive thirst and the production of large amounts of diluted urine.
 
-## 🧠 The PIMA Indians Data Content 
+### 💉 What Is Gestational Diabetes Insipidus?  
+**Gestational diabetes insipidus** (also called **gestagenic diabetes insipidus**) is a rare disorder that may develop during the **third trimester of pregnancy**. It is typically transient and resolves after childbirth.
 
-The observations in the dataset are records of females over 21 years of age with a Pima Indian heritage and variables 
-such as: blood pressure, insulin levels, body mass index, etc. 
-
-##  Attributes Normal Value Range
-1. **Glucose**: Glucose (< 140) = Normal, Glucose (140-200) = Pre-Diabetic, Glucose (> 200) = Diabetic
-2. **BloodPressure**: B.P (< 60) = Below Normal, B.P (60-80) = Normal, B.P (80-90) = Stage 1 Hypertension, B.P (90-120) = Stage 2 Hypertension, B.P (> 120) = Hypertensive Crisis
-3. **SkinThickness**: SkinThickness (< 10) = Below Normal, SkinThickness (10-30) = Normal, SkinThickness (> 30) = Above Normal
-4. **Insulin** : Insulin (< 200) = Normal, Insulin (> 200) = Above Normal
-5. **Body Mass Index**: BMI (< 18.5) = Underweight, BMI (18.5-25) = Normal, BMI (25-30) = Overweight, BMI (> 30) = Obese
-
-
+![Image](diabetes_risk_stratification.png.png)
 
 
 
-# 🧠 Importing the PIMA Indians Dataset - Website KAGGLE.COM
 
-The data comes from the National Institute of Diabetes and Digestive and Kidney Diseases but is highly curated upon registry to KAGGLE. 
+# ⚙️ Importing the PIMA Indians Diabetes Dataset  
+*(Source: [Kaggle.com](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database))*  
 
-The dataset is for the purposes of predicting whether patients have diabetes based on other variables in the dataset. 
+The **Pima Indians Diabetes Dataset** originates from the *National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)* and is hosted and curated on Kaggle for research and educational use.  
 
-This data is very specific to a sub-population - **IT IS NOT** a representative of a **real world diabetes data set** - it is for learning ONLY. 
+This dataset is commonly used to explore and model the prediction of **diabetes diagnosis** based on physiological and medical features.  
 
-## 🧠 The PIMA Indians Data Content 
+> ⚠️ **Note:** This dataset represents a small, specific sub-population of adult females (aged 21+) of **Pima Indian heritage**. It is not representative of broader, real-world diabetic populations and should be used **for learning and demonstration purposes only**.  
 
-The observations in the dataset are records of females over 21 years of age with a Pima Indian heritage and variables 
-such as: blood pressure, insulin levels, body mass index, etc. 
+---
 
-##  Attributes Normal Value Range
-1. **Glucose**: Glucose (< 140) = Normal, Glucose (140-200) = Pre-Diabetic, Glucose (> 200) = Diabetic
-2. **BloodPressure**: B.P (< 60) = Below Normal, B.P (60-80) = Normal, B.P (80-90) = Stage 1 Hypertension, B.P (90-120) = Stage 2 Hypertension, B.P (> 120) = Hypertensive Crisis
-3. **SkinThickness**: SkinThickness (< 10) = Below Normal, SkinThickness (10-30) = Normal, SkinThickness (> 30) = Above Normal
-4. **Insulin** : Insulin (< 200) = Normal, Insulin (> 200) = Above Normal
-5. **Body Mass Index**: BMI (< 18.5) = Underweight, BMI (18.5-25) = Normal, BMI (25-30) = Overweight, BMI (> 30) = Obese
+## 📈 Dataset Overview  
+
+The dataset contains health examination records of Pima Indian women, including variables such as glucose level, blood pressure, insulin level, and body mass index (BMI).  
+Each observation is labeled to indicate whether the individual shows signs of diabetes.  
+
+---
+
+## 🧩 Attribute Reference and Normal Ranges  
+
+| Variable | Description | Normal / Reference Ranges |
+|-----------|--------------|---------------------------|
+| **Glucose** | Plasma glucose concentration (mg/dL) | <140 = Normal • 140–200 = Prediabetic • >200 = Diabetic |
+| **BloodPressure** | Diastolic blood pressure (mm Hg) | <60 = Low • 60–80 = Normal • 80–90 = Stage 1 HTN • 90–120 = Stage 2 HTN • >120 = Crisis |
+| **SkinThickness** | Triceps skinfold thickness (mm) | <10 = Low • 10–30 = Normal • >30 = Above Normal |
+| **Insulin** | 2-Hour serum insulin (µU/mL) | <200 = Normal • >200 = Elevated |
+| **BMI** | Body mass index (kg/m²) | <18.5 = Underweight • 18.5–25 = Normal • 25–30 = Overweight • >30 = Obese |
+
+---
+
+## 🧠 Purpose  
+
+This dataset is frequently used for:  
+- Building and validating **classification models** (e.g., logistic regression, decision trees, neural networks).  
+- Demonstrating **data preprocessing, feature engineering, and model evaluation** techniques.  
+- Teaching **statistical concepts** in health analytics and population health.  
+
+
+
+
+
+
+
+## ⚙️ Descriptive Statitistics for the dataset
+
+|       |   Pregnancies |   Glucose |   BloodPressure |   SkinThickness |   Insulin |       BMI |   DiabetesPedigreeFunction |      Age |    Outcome |
+|:------|--------------:|----------:|----------------:|----------------:|----------:|----------:|---------------------------:|---------:|-----------:|
+| count |     768       |  768      |        768      |        768      |  768      | 768       |                 768        | 768      | 768        |
+| mean  |       3.84505 |  120.895  |         69.1055 |         20.5365 |   79.7995 |  31.9926  |                   0.471876 |  33.2409 |   0.348958 |
+| std   |       3.36958 |   31.9726 |         19.3558 |         15.9522 |  115.244  |   7.88416 |                   0.331329 |  11.7602 |   0.476951 |
+| min   |       0       |    0      |          0      |          0      |    0      |   0       |                   0.078    |  21      |   0        |
+| 25%   |       1       |   99      |         62      |          0      |    0      |  27.3     |                   0.24375  |  24      |   0        |
+| 50%   |       3       |  117      |         72      |         23      |   30.5    |  32       |                   0.3725   |  29      |   0        |
+| 75%   |       6       |  140.25   |         80      |         32      |  127.25   |  36.6     |                   0.62625  |  41      |   1        |
+| max   |      17       |  199      |        122      |         99      |  846      |  67.1     |                   2.42     |  81      |   1        |
+
+## 📈 Shape of the dataset
+
+**Rows:** 768  
+**Columns:** 9
+
+
+## 📋 Columns in the Dataset
+
+Total Columns: **9**
+
+- Pregnancies
+- Glucose
+- BloodPressure
+- SkinThickness
+- Insulin
+- BMI
+- DiabetesPedigreeFunction
+- Age
+- Outcome
+
+
+## 📈 Sample - Top 5 Rows (HEAD) 
+
+|    |   Pregnancies |   Glucose |   BloodPressure |   SkinThickness |   Insulin |   BMI |   DiabetesPedigreeFunction |   Age |   Outcome |
+|---:|--------------:|----------:|----------------:|----------------:|----------:|------:|---------------------------:|------:|----------:|
+|  0 |             6 |       148 |              72 |              35 |         0 |  33.6 |                      0.627 |    50 |         1 |
+|  1 |             1 |        85 |              66 |              29 |         0 |  26.6 |                      0.351 |    31 |         0 |
+|  2 |             8 |       183 |              64 |               0 |         0 |  23.3 |                      0.672 |    32 |         1 |
+|  3 |             1 |        89 |              66 |              23 |        94 |  28.1 |                      0.167 |    21 |         0 |
+|  4 |             0 |       137 |              40 |              35 |       168 |  43.1 |                      2.288 |    33 |         1 |
+
 
 
 
@@ -90,49 +157,116 @@ Machine Learning Risk stratification - 3 different approaches
 
  
 
-# 🧠 Importing the PIMA Indians Dataset - Website KAGGLE.COM
+## 🧠 Overview of Diabetes  
+*(Source: WebMD)*  
 
-The data comes from the National Institute of Diabetes and Digestive and Kidney Diseases but is highly curated upon registry to KAGGLE. 
+### ⚙️ What Is Diabetes?  
+Diabetes refers to a group of metabolic disorders characterized by problems with the hormone **insulin**, resulting in elevated blood glucose levels. While diabetes cannot be cured, it can be effectively managed through lifestyle modification, medication, and regular monitoring.
 
-The dataset is for the purposes of predicting whether patients have diabetes based on other variables in the dataset. 
+### 🧬 Major Types of Diabetes  
+There are three primary types of diabetes:  
+1. **Type 1 Diabetes** – An autoimmune condition where the pancreas produces little or no insulin.  
+2. **Type 2 Diabetes** – The most common form, often associated with insulin resistance and lifestyle factors.  
+3. **Gestational Diabetes** – Occurs during pregnancy and typically resolves after delivery, though it increases the risk of type 2 diabetes later in life.
 
-This data is very specific to a sub-population - **IT IS NOT** a representative of a **real world diabetes data set** - it is for learning ONLY. 
+### 🩸 What Is Diabetes Insipidus?  
+**Diabetes insipidus** is a distinct condition unrelated to blood glucose regulation. It is caused by a problem with antidiuretic hormone (ADH), leading to excessive thirst and the production of large amounts of diluted urine.
 
-## 🧠 The PIMA Indians Data Content 
+### 💉 What Is Gestational Diabetes Insipidus?  
+**Gestational diabetes insipidus** (also called **gestagenic diabetes insipidus**) is a rare disorder that may develop during the **third trimester of pregnancy**. It is typically transient and resolves after childbirth.
 
-The observations in the dataset are records of females over 21 years of age with a Pima Indian heritage and variables 
-such as: blood pressure, insulin levels, body mass index, etc. 
-
-##  Attributes Normal Value Range
-1. **Glucose**: Glucose (< 140) = Normal, Glucose (140-200) = Pre-Diabetic, Glucose (> 200) = Diabetic
-2. **BloodPressure**: B.P (< 60) = Below Normal, B.P (60-80) = Normal, B.P (80-90) = Stage 1 Hypertension, B.P (90-120) = Stage 2 Hypertension, B.P (> 120) = Hypertensive Crisis
-3. **SkinThickness**: SkinThickness (< 10) = Below Normal, SkinThickness (10-30) = Normal, SkinThickness (> 30) = Above Normal
-4. **Insulin** : Insulin (< 200) = Normal, Insulin (> 200) = Above Normal
-5. **Body Mass Index**: BMI (< 18.5) = Underweight, BMI (18.5-25) = Normal, BMI (25-30) = Overweight, BMI (> 30) = Obese
-
-
+![Image](diabetes_risk_stratification.png.png)
 
 
 
-# 🧠 Importing the PIMA Indians Dataset - Website KAGGLE.COM
 
-The data comes from the National Institute of Diabetes and Digestive and Kidney Diseases but is highly curated upon registry to KAGGLE. 
+# ⚙️ Importing the PIMA Indians Diabetes Dataset  
+*(Source: [Kaggle.com](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database))*  
 
-The dataset is for the purposes of predicting whether patients have diabetes based on other variables in the dataset. 
+The **Pima Indians Diabetes Dataset** originates from the *National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)* and is hosted and curated on Kaggle for research and educational use.  
 
-This data is very specific to a sub-population - **IT IS NOT** a representative of a **real world diabetes data set** - it is for learning ONLY. 
+This dataset is commonly used to explore and model the prediction of **diabetes diagnosis** based on physiological and medical features.  
 
-## 🧠 The PIMA Indians Data Content 
+> ⚠️ **Note:** This dataset represents a small, specific sub-population of adult females (aged 21+) of **Pima Indian heritage**. It is not representative of broader, real-world diabetic populations and should be used **for learning and demonstration purposes only**.  
 
-The observations in the dataset are records of females over 21 years of age with a Pima Indian heritage and variables 
-such as: blood pressure, insulin levels, body mass index, etc. 
+---
 
-##  Attributes Normal Value Range
-1. **Glucose**: Glucose (< 140) = Normal, Glucose (140-200) = Pre-Diabetic, Glucose (> 200) = Diabetic
-2. **BloodPressure**: B.P (< 60) = Below Normal, B.P (60-80) = Normal, B.P (80-90) = Stage 1 Hypertension, B.P (90-120) = Stage 2 Hypertension, B.P (> 120) = Hypertensive Crisis
-3. **SkinThickness**: SkinThickness (< 10) = Below Normal, SkinThickness (10-30) = Normal, SkinThickness (> 30) = Above Normal
-4. **Insulin** : Insulin (< 200) = Normal, Insulin (> 200) = Above Normal
-5. **Body Mass Index**: BMI (< 18.5) = Underweight, BMI (18.5-25) = Normal, BMI (25-30) = Overweight, BMI (> 30) = Obese
+## 📈 Dataset Overview  
+
+The dataset contains health examination records of Pima Indian women, including variables such as glucose level, blood pressure, insulin level, and body mass index (BMI).  
+Each observation is labeled to indicate whether the individual shows signs of diabetes.  
+
+---
+
+## 🧩 Attribute Reference and Normal Ranges  
+
+| Variable | Description | Normal / Reference Ranges |
+|-----------|--------------|---------------------------|
+| **Glucose** | Plasma glucose concentration (mg/dL) | <140 = Normal • 140–200 = Prediabetic • >200 = Diabetic |
+| **BloodPressure** | Diastolic blood pressure (mm Hg) | <60 = Low • 60–80 = Normal • 80–90 = Stage 1 HTN • 90–120 = Stage 2 HTN • >120 = Crisis |
+| **SkinThickness** | Triceps skinfold thickness (mm) | <10 = Low • 10–30 = Normal • >30 = Above Normal |
+| **Insulin** | 2-Hour serum insulin (µU/mL) | <200 = Normal • >200 = Elevated |
+| **BMI** | Body mass index (kg/m²) | <18.5 = Underweight • 18.5–25 = Normal • 25–30 = Overweight • >30 = Obese |
+
+---
+
+## 🧠 Purpose  
+
+This dataset is frequently used for:  
+- Building and validating **classification models** (e.g., logistic regression, decision trees, neural networks).  
+- Demonstrating **data preprocessing, feature engineering, and model evaluation** techniques.  
+- Teaching **statistical concepts** in health analytics and population health.  
+
+
+
+
+
+
+
+## ⚙️ Descriptive Statitistics for the dataset
+
+|       |   Pregnancies |   Glucose |   BloodPressure |   SkinThickness |   Insulin |       BMI |   DiabetesPedigreeFunction |      Age |    Outcome |
+|:------|--------------:|----------:|----------------:|----------------:|----------:|----------:|---------------------------:|---------:|-----------:|
+| count |     768       |  768      |        768      |        768      |  768      | 768       |                 768        | 768      | 768        |
+| mean  |       3.84505 |  120.895  |         69.1055 |         20.5365 |   79.7995 |  31.9926  |                   0.471876 |  33.2409 |   0.348958 |
+| std   |       3.36958 |   31.9726 |         19.3558 |         15.9522 |  115.244  |   7.88416 |                   0.331329 |  11.7602 |   0.476951 |
+| min   |       0       |    0      |          0      |          0      |    0      |   0       |                   0.078    |  21      |   0        |
+| 25%   |       1       |   99      |         62      |          0      |    0      |  27.3     |                   0.24375  |  24      |   0        |
+| 50%   |       3       |  117      |         72      |         23      |   30.5    |  32       |                   0.3725   |  29      |   0        |
+| 75%   |       6       |  140.25   |         80      |         32      |  127.25   |  36.6     |                   0.62625  |  41      |   1        |
+| max   |      17       |  199      |        122      |         99      |  846      |  67.1     |                   2.42     |  81      |   1        |
+
+## 📈 Shape of the dataset
+
+**Rows:** 768  
+**Columns:** 9
+
+
+## 📋 Columns in the Dataset
+
+Total Columns: **9**
+
+- Pregnancies
+- Glucose
+- BloodPressure
+- SkinThickness
+- Insulin
+- BMI
+- DiabetesPedigreeFunction
+- Age
+- Outcome
+
+
+## 📈 Sample - Top 5 Rows (HEAD) 
+
+|    |   Pregnancies |   Glucose |   BloodPressure |   SkinThickness |   Insulin |   BMI |   DiabetesPedigreeFunction |   Age |   Outcome |
+|---:|--------------:|----------:|----------------:|----------------:|----------:|------:|---------------------------:|------:|----------:|
+|  0 |             6 |       148 |              72 |              35 |         0 |  33.6 |                      0.627 |    50 |         1 |
+|  1 |             1 |        85 |              66 |              29 |         0 |  26.6 |                      0.351 |    31 |         0 |
+|  2 |             8 |       183 |              64 |               0 |         0 |  23.3 |                      0.672 |    32 |         1 |
+|  3 |             1 |        89 |              66 |              23 |        94 |  28.1 |                      0.167 |    21 |         0 |
+|  4 |             0 |       137 |              40 |              35 |       168 |  43.1 |                      2.288 |    33 |         1 |
+
 
 
 
