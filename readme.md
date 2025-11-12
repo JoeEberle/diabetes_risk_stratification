@@ -4,11 +4,7 @@
 
 ## Machine Learning Risk stratification - 3 different approaches
 
-    
-![Solution](code.png)
-
-    
-
+    ![Image image_filename](code.png)
 
 ## 🧠 Overview of Diabetes  
 *(Source: WebMD)*  
@@ -151,7 +147,7 @@ Total Columns: **9**
 
 
 
-Welcome to the solution **Diabetes Risk Stratification.** - an example for your projects
+Welcome to the solution **Diabetes Risk Stratification.** 
 
 Machine Learning Risk stratification - 3 different approaches
 
@@ -298,13 +294,7 @@ Total Columns: **9**
 
 
 <br>
-
-![Solution](code.png)
-
-    
-![Solution](code.png)
-
-    
+![Image image_filename](code.png)![Image image_filename](sample.png)
 ## Getting Started
 
 The goal of this solution is to **Jump Start** your development and have you up and running in 30 minutes. 
